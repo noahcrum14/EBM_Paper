@@ -152,16 +152,10 @@ This script will loop over several configuration files and run the attack for ea
 - **Data Transformations:**  
   Adjust the transformations in `utils.py` to accommodate other datasets or to experiment with different normalization schemes.
 
----
-
-## License
-
-This codebase is provided under the MIT License. *(Update this section if using a different license.)*
 
 ---
 
 ## Acknowledgments
 
-- The WideResNet implementation is adapted from [Bumsoo Kim's repository](https://github.com/meliketoy/wide-resnet.pytorch) with minor modifications.  
-  *(See citeturn0file2)*
-- This project leverages advanced adversarial attack techniques including BPDA and EOT to evaluate and improve network robustness.
+- The WideResNet implementation is adapted from [Bumsoo Kim's repository](https://github.com/meliketoy/wide-resnet.pytorch) with minor modifications.
+- Much of the EBM training and attack code follows [Mitch Hill's repository](from https://github.com/point0bar1/ebm-defense) with some modifications.
