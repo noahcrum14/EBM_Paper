@@ -155,7 +155,7 @@ This script will loop over several configuration files and run the attack for ea
 
 ---
 
-## Acknowledgments
+## References
 
 - The WideResNet implementation is adapted from [Bumsoo Kim's repository](https://github.com/meliketoy/wide-resnet.pytorch) with minor modifications.
-- Much of the EBM training and attack code follows [Mitch Hill's repository](from https://github.com/point0bar1/ebm-defense) with some modifications.
+- Much of the EBM training, CLF training, and attack code follows [Mitch Hill's repository](from https://github.com/point0bar1/ebm-defense) under the Apache 2.0 license with some modifications.
