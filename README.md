@@ -46,7 +46,6 @@ This is the main script that executes the adversarial attack. It:
   - **PGD Updates:** Generates adversarial examples by iteratively updating inputs within a constrained norm ball.
 - Logs and saves intermediate results and plots defense accuracy over attack iterations.
 
-*(See citeturn0file0 for complete code details.)*
 
 ---
 
@@ -56,7 +55,6 @@ This helper script automates running the attack across multiple configurations. 
 - Executes the `bpda_eot_attack.py` script for each configuration using subprocess calls.
 - Provides clear console output to track progress across different attack settings.
 
-*(Refer to citeturn0file1 for the implementation.)*
 
 ---
 
@@ -69,7 +67,6 @@ This file contains the model definitions:
 - **WideResNet (Wide Residual Network):**  
   An implementation of WideResNet adapted from the original work. It is used as the classifier against which adversarial examples are generated.
 
-*(Full details in citeturn0file2.)*
 
 ---
 
@@ -81,7 +78,6 @@ Utility functions that support the experimental setup:
 - **import_data:**  
   Loads and normalizes datasets (CIFAR10, CIFAR100, or SVHN) with transformations that scale pixel intensities to the range `[-1, 1]`.
 
-*(See citeturn0file3 for the complete code.)*
 
 ---
 
